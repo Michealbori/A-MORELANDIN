@@ -1,0 +1,1228 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+.navbar-brand{
+    cursor: pointer;
+}
+
+.login-btn{
+    color: #0E1514;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    font-weight: 700;
+    margin-right: 0.7em;
+    cursor: pointer;
+}
+
+.contact-btn1{
+    background-color: #fd860b;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.contact-btn:hover{
+    background-color: #f69433;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+/* Animate Section */
+
+.features_section .animate{
+    transform: translateX(-100%);
+}
+.features_section.show-animate .animate{
+    transform: translateX(0);
+}
+
+
+
+/* .features_section .animate{
+    transform: scale(.7);
+}
+
+.features_section.show-animate .animate{
+    transform: scale(1);
+} */
+
+
+/* HERO SECTION */
+
+
+.hero_section{
+    background: url('img/Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .FirstHero_section, .SecondHero_section{
+    margin-top: 2.9em;
+}
+
+.FirstHero_section {
+    margin-top: 8em;
+}
+
+.FirstHero_section #find_partner{
+    background: #fff;
+    padding: 8px 16px;
+    border-radius: 7px;
+    color: #fd860b;
+    font-weight: 700;
+    margin-left: 4em;
+    width: 19%;
+}
+
+
+.FirstHero_section h2{
+    padding-left: 1.80em;
+    font-weight: 700;
+    color: #484c7e;
+}
+.FirstHero_section #hero_lorem{
+    margin-left: 2.6em;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.download_section img{
+  width: 20%;
+  margin-left: 2.9em;
+}
+
+
+/* FEATURES SECTION */
+
+.features_section{
+    background: url('img/S-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.categories_section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.categories_section p{
+         font-weight: 500;
+         font-style: italic;
+}
+
+.text_section{
+    text-align: center;
+    padding: 5em 0 5em 0;
+    display: block;
+    justify-content: center;
+}
+.text_section span{
+           background: #F3ECFF;
+           color: #484c7e;
+           padding: 15px 15px 15px 15px;
+           justify-content: center;
+           border-radius: 5px;
+           font-weight: 700;
+           margin-bottom: 3em;
+}
+.text_section p{
+           color: #484c7e;
+           font-size: 50px;
+           font-weight: 700;
+           margin-top: 20px;
+}
+
+
+
+/* THIRD HERO SECTION */
+
+.thirdHero_Section{
+    background: url('img/T-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+.thirdHero_Sectionfirst img{
+         width: 100%;
+}
+
+.thirdHero_Sectionsecond h3{
+    color: #484c7e;
+    text-align: center;
+    margin-top: 4em;
+}
+
+.thirdHero_Sectionsecond p{
+   text-wrap: wrap;
+}
+
+
+
+
+/* FOURTH SECTION */
+
+.user-testimony_FIRSTSECTION {
+          text-align: center;
+          display: block;
+          justify-content: center;
+}
+
+.user-testimony_FIRSTSECTION span{
+    background: #F3ECFF;
+    color: #484c7e;
+    padding: 15px 15px 15px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.user-testimony_FIRSTSECTION p{
+    color: #484c7e;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.container1
+{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider
+{
+      position: absolute;
+      inset: 80px 200px 80px 80px;
+      background: #ccc;
+      border-radius: 20px;
+}
+
+.slider .slides 
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 250px;
+    height: 320px;
+    background: var(--img);
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+    border-radius: 20px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.slider .slides:nth-child(1),
+.slider .slides:nth-child(2)
+{
+           position: absolute;
+           top: 0;
+           left: 0;
+           width: 100%;
+           height: 100%;
+           transform: translateY(0);
+}
+
+.slider .slides:nth-child(3)
+{
+left: calc(50% + 240px);
+background-size: cover;
+}
+
+.slider .slides:nth-child(4)
+{
+left: calc(50% + 500px);
+background-size: cover;
+}
+
+.slider .slides:nth-child(5)
+{
+left: calc(50% + 760px);
+background-size: cover;
+}
+
+.slider .slides:nth-child(6)
+{
+left: calc(50% + 1020px);
+background-size: cover;
+opacity: 0;
+}
+
+.buttons
+{
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.buttons span
+{
+       position: relative;
+       width: 50px;
+       height: 50px;
+       background: black;
+       cursor: pointer;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 50%;
+
+}
+
+.buttons span::before
+{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    transform: rotate(315deg) translate(2px, 2px );
+}
+
+.buttons span:nth-child(2):before
+{
+    transform: rotate(135deg) translate(2px, 2px );
+}
+
+.buttons span:active
+{
+    opacity: 0.5;
+}
+
+.contents
+{
+   position: relative;
+   padding: 40px;
+   max-width: 600px;
+   transition: 0.25s;
+   transition-delay: 0s; 
+   transform: translateY(40px);
+   z-index: 10000;
+   opacity: 0;
+}
+
+.slider .slides:nth-child(1) .contents,
+.slider .slides:nth-child(2) .contents
+{
+    opacity: 1;    
+    transform: translateY(0px);
+    transition-delay: 0.5s; 
+}
+
+.contents h2
+{
+font-family: 'Franklin Gothic Medium',  sans-serif;
+color: #fff;
+}
+.contents p
+{
+font-family: 'Franklin Gothic Medium',  sans-serif;
+color: #fff;
+}
+
+
+
+
+
+/* Pricing Section */
+.pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 170em;
+}
+
+
+ .firstPricing_Section span
+{
+        position: absolute;
+        top: 5em;
+        left: 45.5em;
+        background: #F3ECFF;
+        color: #484c7e;
+        padding: 15px 15px 15px 15px;
+        font-weight: bold;
+        border-radius: 5px;
+}
+
+ .firstPricing_Section p
+{
+        position: absolute;
+        top: 6em;
+        left: 24.5em;
+        color: #484c7e;
+        text-transform: capitalize;
+        font-weight: bold;
+        letter-spacing: 2px;
+        font-size: 25px;
+}
+
+
+.secondPricing_Section
+{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 18em; 
+        left: 25em;
+        gap: 2em;
+       text-align: center;
+}
+
+
+
+
+
+.secondPricing_Section .firstCard
+{
+        background: #fff;
+        box-shadow: 0 25px 50px rgba(88, 88, 88, 0.5);
+        padding: 1.5em;
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e; 
+        
+}
+.secondPricing_Section .firstCard button
+{
+    padding: 10px;
+    background: none;
+    border:2px solid tomato;
+    border-radius: 3px;
+        
+}
+.secondPricing_Section .firstCard button:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);        
+}
+
+
+
+.secondPricing_Section .firstCard h5
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;
+}
+
+
+.secondPricing_Section .firstCard span
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: black;
+        font-size: 10px;
+}
+
+
+
+
+.secondPricing_Section .standardCard
+{
+        background: #fff;
+        box-shadow: 0 25px 50px rgba(88, 88, 88, 0.5);
+        padding: 1.5em;    
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;    
+}
+
+.secondPricing_Section .standardCard button
+{
+    padding: 10px;
+    background: none;
+    border:none;
+    background: #f69433;
+    border-radius: 3px;
+    color: #fff;
+        
+}
+.secondPricing_Section .standardCard button:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.secondPricing_Section .standardCard h5
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;
+}
+.secondPricing_Section .standardCard span
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: black;
+        font-size: 10px;
+}
+
+
+.secondPricing_Section .premiumCard
+{
+        background: #fff;
+        box-shadow: 0 25px 50px rgba(88, 88, 88, 0.5);
+        padding: 1.5em; 
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;        
+}
+
+.secondPricing_Section .premiumCard button
+{
+    padding: 10px;
+    background: none;
+    border:2px solid #ff6347;
+    border-radius: 3px;
+        
+}
+.secondPricing_Section .premiumCard button:hover
+{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        
+}
+.secondPricing_Section .premiumCard
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;
+}
+
+.secondPricing_Section .premiumCard h5
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: #484c7e;
+}
+.secondPricing_Section .premiumCard span
+{
+        font-family: 'Franklin Gothic Medium',  sans-serif;
+        color: black;
+        font-size: 10px;
+}
+
+
+.AppD_Section{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    position: absolute;
+    top: 230em;
+    display: flex;
+}
+
+.AppD_FirstSection{
+    position: absolute;
+    text-align: center;
+}
+
+.AppD_FirstSection h4{
+            font-family: 'Franklin Gothic Medium',  sans-serif;
+            color: #484c7e;
+            margin-top: 3em;
+}
+
+.AppD_FirstSection p
+{
+    text-wrap: wrap;
+}
+
+.AppD_SecondSection img
+{
+    position: absolute;
+    left: 65em;
+}
+
+.download_icons img{
+    width: 20%;
+  }
+
+                  /* Footer Section */
+
+  footer
+  {
+          background: #484c7e;
+          margin-top: 155em;
+  }
+
+.tooper_section
+{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+.tooper_section h4
+{
+        color: #fff;
+        font-family: 'Franklin Gothic light',  sans-serif;
+        margin: 1em;
+}
+.tooper_section button
+{
+   background: #f69433;
+   color: #fff;
+   border: none;
+   padding: 5px;
+   border-radius: 3px;
+   font-weight: 500;
+   margin: 1em;
+}
+
+hr{
+    color: #fff;
+}
+
+.bottom_Section
+{
+    margin: 3em 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.newsLetter h4
+{
+    color: #fff;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.newsLetter input
+{
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    color: #f69433;
+    font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.Service
+{
+   color: #fff;
+   font-family: 'Franklin Gothic light',  sans-serif;
+}
+.Service h5
+{
+   color: #f69433;
+   text-decoration: underline;
+}
+.About
+{
+   color: #fff;
+   font-family: 'Franklin Gothic light',  sans-serif;
+}
+.About h5
+{
+    color: #f69433;
+    text-decoration: underline;
+}
+.Help h5
+{
+    color: #f69433;
+    text-decoration: underline;
+}
+.Help
+{
+   color: #fff;
+   font-family: 'Franklin Gothic light',  sans-serif;
+}
+
+.last-footer_section
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-footer_section p
+{
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Franklin Gothic light',  sans-serif;
+    letter-spacing: 2px;
+}
+ @media (max-width: 900px)
+
+ {
+    .hero_section
+    {
+        display: block;
+        justify-content: none;
+        height: 105vh;
+    }
+
+    .FirstHero_section 
+    {
+        margin-top: 0;
+    }
+
+    .FirstHero_section #find_partner
+    {
+        position: absolute;
+        margin-left: 0.5em;
+        width: 50%;
+        margin-top: 1.4em;
+        text-align: center;
+    }
+
+    .FirstHero_section h2{
+        position: absolute;
+        padding-left: 0.5em;
+        margin-top: 3.5em;
+    }
+
+    .FirstHero_section #hero_lorem{
+        position: absolute;
+        margin-top: 8em;
+        margin-left: 0.6em;
+        font-size: 20px;
+        text-wrap: wrap;
+    }
+
+    .download_section img{
+        width: 20%;
+        margin-left: 0.5em;
+        margin-top: 19.6em;
+        align-items: center;
+      }
+
+      .SecondHero_section img{
+        width: 100%;
+      }
+
+
+
+.features_section{
+    background: url('img/S-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+}
+
+
+.categories_section{
+    display: block;
+    text-align: center;
+}
+
+.categories_section p{
+         font-weight: 500;
+         font-style: italic;
+}
+
+.text_section{
+    text-align: center;
+    padding: 5em 0 5em 0;
+    display: block;
+    justify-content: center;
+}
+.text_section a{
+           background: #F3ECFF;
+           color: #484c7e;
+           padding: 15px 15px 15px 15px;
+           justify-content: center;
+           border-radius: 5px;
+           font-weight: 700;
+}
+.text_section p{
+           color: #484c7e;
+           font-size: 50px;
+           font-weight: 700;
+           margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+.thirdHero_Section{
+    background: url('img/T-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+.thirdHero_Sectionfirst img{
+         width: 100%;
+}
+
+.thirdHero_Sectionsecond h3{
+    color: #484c7e;
+    padding:0 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.thirdHero_Sectionsecond p{
+   text-wrap: wrap;
+   padding:0 10px 10px 10px;
+   text-align: center;
+   font-weight: bold;
+
+}
+
+
+
+
+
+.slider{
+    position: absolute;
+    inset: 40px 40px 200px 40px;
+}
+
+.slider .slides
+{
+      width: 100px;
+      height: 100px;
+      top: initial;
+      bottom: -170px;  
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.slider .slides:nth-child(1),
+.slider .slides:nth-child(2)
+{
+top: initial;
+bottom: 0px;
+}
+
+.slider .slides:nth-child(3)
+{
+left: 0;
+}
+
+.slider .slides:nth-child(4)
+{
+left: 120px;
+}
+
+.slider .slides:nth-child(5)
+{
+left: 240px;
+}
+
+.slider .slides:nth-child(6)
+{
+left: 360px;
+}
+
+
+.firstPricing_Section span
+{
+        position: absolute;
+        top: 3em;
+        left: 10em;
+
+}
+
+ .firstPricing_Section p
+{
+        position: absolute;
+        top: 5em;
+        left: 2.5em;
+}
+
+.pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 210vh;
+    position: absolute;
+    top: 200em;
+}
+
+
+
+.secondPricing_Section
+{
+        display: block;
+        position: absolute;
+        top: 18em; 
+        left: 5em;
+        gap: 15em;
+}
+
+.secondPricing_Section .standardCard{
+             margin: 1em 0 1em 0;
+ }
+
+
+ .AppD_Section{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: 300em;
+    display: block;
+}
+
+.AppD_SecondSection img
+{
+    position: absolute;
+    left: 3.3em;
+    top: 24em;
+}
+
+.AppD_FirstSection h4{
+    margin-top: 6em;
+}
+
+.Service{
+    margin-top: 30px;
+}
+.About
+{
+    margin-top: 1em;  
+    margin-bottom: 1em;  
+}
+.last-footer_section
+{
+    display: block;
+}
+
+.bottom_Section
+{
+    display: block;
+}
+
+.tooper_section
+{
+    display: block;
+}
+
+footer
+{
+        margin-top: 230em;
+}
+
+ }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          /* IPHONE XR */
+ @media only screen and (max-device-width: 414px) 
+ {
+    .hero_section
+    {
+        display: block;
+        justify-content: none;
+    }
+    .download_section img{
+        width: 20%;
+        margin-left: 0.5em;
+        margin-top: 18.7em;
+        align-items: center;
+      }
+
+    .pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    top: 230em;
+}
+
+.AppD_Section
+{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 128vh;
+    position: absolute;
+    top: 335em;
+    display: block;
+}
+footer
+{
+        margin-top: 240em;
+}
+
+ }
+
+
+                       /* IPHONE X */
+                       @media only screen and (max-device-width: 375px) 
+                       {
+                          .hero_section
+                          {
+                              display: block;
+                              justify-content: none;
+                          }
+
+                          .download_section img
+                          {
+                            width: 20%;
+                            margin-left: 0.5em;
+                            margin-top: 17.9em;
+                            align-items: center;
+                          }
+                    
+                      
+                          .pricing_Section
+                      {
+                          background: url('img/f-Background.png') no-repeat center;
+                          background-size: cover;
+                          width: 100%;
+                          height: 190vh;
+                          position: absolute;
+                          top: 220em;
+                      }
+                      
+                      .AppD_Section
+                      {
+                          background: url('img/bg.png') no-repeat center;
+                          background-size: cover;
+                          width: 100%;
+                          height: 128vh;
+                          position: absolute;
+                          top: 335em;
+                          display: block;
+                      }
+                      footer
+                      {
+                              margin-top: 250em;
+                      }
+                      
+                       }
+
+
+                        /* IPHONE 14 PRO MAX */
+ @media only screen and (max-device-width: 430px) 
+ {
+    .hero_section
+    {
+        display: block;
+        justify-content: none;
+        height: 88.4vh;
+    }
+    .pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    top: 230em;
+}
+
+.AppD_Section
+{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 128vh;
+    position: absolute;
+    top: 335em;
+    display: block;
+}
+footer
+{
+        margin-top: 240em;
+}
+
+ }
+
+                        /* PIXEL 7 */
+ @media only screen and (max-device-width: 412px) 
+ {
+
+    .hero_section
+    {
+        display: block;
+        justify-content: none;
+        height: 86.2vh;
+    }
+
+
+    .pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 180vh;
+    position: absolute;
+    top: 230em;
+}
+
+
+
+.AppD_Section
+{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 125vh;
+    position: absolute;
+    top: 335em;
+    display: block;
+}
+footer
+{
+        margin-top: 240em;
+}
+
+ }
+
+
+                             /* Iphone 12 Pro */
+ @media only screen and (max-device-width: 390px) 
+ {
+    .hero_section
+    {
+        display: block;
+        justify-content: none;
+        height: 90.7vh;
+    }
+
+
+    .pricing_Section
+{
+    background: url('img/f-Background.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 190vh;
+    position: absolute;
+    top: 220em;
+}
+
+
+.AppD_Section
+{
+    background: url('img/bg.png') no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 165vh;
+    position: absolute;
+    top: 320em;
+    display: block;
+}
+footer
+{
+        margin-top: 260em;
+}
+
+ }
+
+
+
+ 
+                             /* SAMSUNG GALAXY S8+ */
+                             @media only screen and (max-device-width: 360px) 
+                             {
+                                .hero_section
+                                {
+                                    display: block;
+                                    justify-content: none;
+                                    height: 99.1vh;
+                                }
+                            
+                                .download_section img
+                                {
+                                  width: 20%;
+                                  margin-left: 0.5em;
+                                  margin-top: 18.7em;
+                                  align-items: center;
+                                }
+                            
+                                .pricing_Section
+                            {
+                                background: url('img/f-Background.png') no-repeat center;
+                                background-size: cover;
+                                width: 100%;
+                                height: 210vh;
+                                position: absolute;
+                                top: 200em;
+                            }
+                            
+                            
+                            .AppD_Section
+                            {
+                                background: url('img/bg.png') no-repeat center;
+                                background-size: cover;
+                                width: 100%;
+                                height: 165vh;
+                                position: absolute;
+                                top: 300em;
+                                display: block;
+                            }
+                            footer
+                            {
+                                    margin-top: 230em;
+                            }
+                            
+                             }
+
+
+
+ 
+
+
+
+
+ 
