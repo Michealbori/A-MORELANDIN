@@ -687,7 +687,7 @@ hr{
     {
         display: block;
         justify-content: none;
-        height: 105vh;
+        height: 90vh;
     }
 
     .FirstHero_section 
@@ -875,9 +875,9 @@ left: 360px;
     background: url('img/f-Background.png') no-repeat center;
     background-size: cover;
     width: 100%;
-    height: 210vh;
+    height: 180vh;
     position: absolute;
-    top: 200em;
+    top: 230em;
 }
 
 
@@ -902,7 +902,7 @@ left: 360px;
     width: 100%;
     height: 150vh;
     position: absolute;
-    top: 300em;
+    top: 330em;
     display: block;
 }
 
@@ -942,7 +942,7 @@ left: 360px;
 
 footer
 {
-        margin-top: 230em;
+        margin-top: 250em;
 }
 
  }
@@ -961,268 +961,3 @@ footer
 
 
 
-
-
-                          /* IPHONE XR */
- @media only screen and (max-device-width: 414px) 
- {
-    .hero_section
-    {
-        display: block;
-        justify-content: none;
-    }
-    .download_section img{
-        width: 20%;
-        margin-left: 0.5em;
-        margin-top: 18.7em;
-        align-items: center;
-      }
-
-    .pricing_Section
-{
-    background: url('img/f-Background.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 180vh;
-    position: absolute;
-    top: 230em;
-}
-
-.AppD_Section
-{
-    background: url('img/bg.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 128vh;
-    position: absolute;
-    top: 335em;
-    display: block;
-}
-footer
-{
-        margin-top: 240em;
-}
-
- }
-
-
-                       /* IPHONE X */
-                       @media only screen and (max-device-width: 375px) 
-                       {
-                          .hero_section
-                          {
-                              display: block;
-                              justify-content: none;
-                          }
-
-                          .download_section img
-                          {
-                            width: 20%;
-                            margin-left: 0.5em;
-                            margin-top: 17.9em;
-                            align-items: center;
-                          }
-                    
-                      
-                          .pricing_Section
-                      {
-                          background: url('img/f-Background.png') no-repeat center;
-                          background-size: cover;
-                          width: 100%;
-                          height: 190vh;
-                          position: absolute;
-                          top: 220em;
-                      }
-                      
-                      .AppD_Section
-                      {
-                          background: url('img/bg.png') no-repeat center;
-                          background-size: cover;
-                          width: 100%;
-                          height: 128vh;
-                          position: absolute;
-                          top: 335em;
-                          display: block;
-                      }
-                      footer
-                      {
-                              margin-top: 250em;
-                      }
-                      
-                       }
-
-
-                        /* IPHONE 14 PRO MAX */
- @media only screen and (max-device-width: 430px) 
- {
-    .hero_section
-    {
-        display: block;
-        justify-content: none;
-        height: 88.4vh;
-    }
-    .pricing_Section
-{
-    background: url('img/f-Background.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 180vh;
-    position: absolute;
-    top: 230em;
-}
-
-.AppD_Section
-{
-    background: url('img/bg.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 128vh;
-    position: absolute;
-    top: 335em;
-    display: block;
-}
-footer
-{
-        margin-top: 240em;
-}
-
- }
-
-                        /* PIXEL 7 */
- @media only screen and (max-device-width: 412px) 
- {
-
-    .hero_section
-    {
-        display: block;
-        justify-content: none;
-        height: 86.2vh;
-    }
-
-
-    .pricing_Section
-{
-    background: url('img/f-Background.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 180vh;
-    position: absolute;
-    top: 230em;
-}
-
-
-
-.AppD_Section
-{
-    background: url('img/bg.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 125vh;
-    position: absolute;
-    top: 335em;
-    display: block;
-}
-footer
-{
-        margin-top: 240em;
-}
-
- }
-
-
-                             /* Iphone 12 Pro */
- @media only screen and (max-device-width: 390px) 
- {
-    .hero_section
-    {
-        display: block;
-        justify-content: none;
-        height: 90.7vh;
-    }
-
-
-    .pricing_Section
-{
-    background: url('img/f-Background.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 190vh;
-    position: absolute;
-    top: 220em;
-}
-
-
-.AppD_Section
-{
-    background: url('img/bg.png') no-repeat center;
-    background-size: cover;
-    width: 100%;
-    height: 165vh;
-    position: absolute;
-    top: 320em;
-    display: block;
-}
-footer
-{
-        margin-top: 260em;
-}
-
- }
-
-
-
- 
-                             /* SAMSUNG GALAXY S8+ */
-                             @media only screen and (max-device-width: 360px) 
-                             {
-                                .hero_section
-                                {
-                                    display: block;
-                                    justify-content: none;
-                                    height: 99.1vh;
-                                }
-                            
-                                .download_section img
-                                {
-                                  width: 20%;
-                                  margin-left: 0.5em;
-                                  margin-top: 18.7em;
-                                  align-items: center;
-                                }
-                            
-                                .pricing_Section
-                            {
-                                background: url('img/f-Background.png') no-repeat center;
-                                background-size: cover;
-                                width: 100%;
-                                height: 210vh;
-                                position: absolute;
-                                top: 200em;
-                            }
-                            
-                            
-                            .AppD_Section
-                            {
-                                background: url('img/bg.png') no-repeat center;
-                                background-size: cover;
-                                width: 100%;
-                                height: 165vh;
-                                position: absolute;
-                                top: 300em;
-                                display: block;
-                            }
-                            footer
-                            {
-                                    margin-top: 230em;
-                            }
-                            
-                             }
-
-
-
- 
-
-
-
-
- 
